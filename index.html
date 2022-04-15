@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <title>Documentacion Tecnica</title>
+</head>
+<body>
+  <nav id="navbar">
+    <header class="FondoHeader">
+      <h1>Desarrollo Web</h1>
+    </header>
+    <div class="ContainerUl">
+      <ul>
+        <li>
+          <a href="#html" class="nav-link"><label for="HtmlInput">Html</label></a>
+        </li>
+        <li>
+          <a href="#css" class="nav-link"><label for="CssInput">Css</label></a>
+        </li>
+        <li>
+          <a href="#javascript" class="nav-link"><label for="JavaInput">JavaScript</label></a>
+        </li>
+        <li>
+          <a href="#express" class="nav-link"><label for="ExpressInput">Express</label></a>
+        </li>
+        <li>
+          <a href="#react" class="nav-link"><label for="ReactInput">React</label></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main id="main-doc">
+    <input type="radio" name="SectionMove" id="DefaultInput" checked>
+    <input type="radio" name="SectionMove" id="HtmlInput">
+    <input type="radio" name="SectionMove" id="CssInput">
+    <input type="radio" name="SectionMove" id="JavaInput">
+    <input type="radio" name="SectionMove" id="ExpressInput">
+    <input type="radio" name="SectionMove" id="ReactInput">
+    <section class="main-section" id="html">
+      <header>
+        <h2>HTML</h2>
+      </header>
+      <div>
+        <article class="introduccion">
+          <h3>Introduccion</h3>
+          <p>HTML (Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) es el componente más básico de la Web. Define el significado y la estructura del contenido web. Además de HTML, generalmente se utilizan otras tecnologías para describir la apariencia/presentación de una página web (CSS) o la funcionalidad/comportamiento (JavaScript).</p>
+          <p>"Hipertexto" hace referencia a los enlaces que conectan páginas web entre sí, ya sea dentro de un único sitio web o entre sitios web. Los enlaces son un aspecto fundamental de la Web. Al subir contenido a Internet y vincularlo a las páginas creadas por otras personas, te conviertes en un participante activo en la «World Wide Web» (Red Informática Mundial).</p>
+          <div>
+            <p>Quieres Conocer Las Principales Etiquetas?</p>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element" target="_blank">Haz Clic Aqui</a>
+          </div>
+          <p>Un elemento HTML se distingue de otro texto en un documento mediante "etiquetas", que consisten en el&nbsp;nombre&nbsp;del elemento rodeado&nbsp;por "<code>&lt;</code>" y "<code>&gt;</code>". El nombre de un elemento dentro de una etiqueta no distingue entre mayúsculas y minúsculas. Es decir, se puede escribir en mayúsculas, minúsculas o una mezcla. Por ejemplo, la etiqueta <code>&lt;title&gt;</code> se puede escribir como <code>&lt;Title&gt;</code>, <code>&lt;TITLE&gt;</code> o de cualquier otra forma.</p>
+        </article>
+        <article>
+          <h3>Como Comenzar</h3>
+          <div class="LimitVideo"><div class="ContainerVideo"><iframe src="https://www.youtube.com/embed/rbuYtrNUxg4" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div></div>
+        </article>
+        <article class="ejemplo">
+          <h3>Ejemplo</h3>
+          <div>
+            <p class="CodeHtml CodeGeneral">
+              <span>&lt;!DOCTYPE HTML&gt;</span>
+              <span>&lt;html&gt;</span>
+              <span class="space1">&lt;head&gt;</span>
+              <span class="space2">&lt;meta charset="utf-8" /&gt;</span>
+              <span class="space2">&lt;title&gt; Ejemplo1 &lt;/title&gt;</span>
+              <span class="space1">&lt;/head&gt;</span>
+              <span class="space1">&lt;body&gt;</span>
+              <span class="space2">&lt;p&gt; Párrafo de ejemplo &lt;/p&gt;</span>
+              <span class="space1">&lt;/body&gt;</span>
+              <span>&lt;/html&gt;</span>
+            </p>
+          </div>
+        </article>
+        <article class="end">
+          <h3>Documentacion Oficial</h3>
+          <div>
+            <p>Para Conocer Todo Lo Que Incorpora Html Visita El Siguiente Enlace</p>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">Documentacion Oficial</a>
+          </div>
+        </article>
+      </div>
+      <li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li>
+    </section>
+    <section class="main-section" id="css">
+      <header>
+        <h2>CSS</h2>
+      </header>
+      <div>
+        <article class="introduccion">
+          <h3>Introduccion</h3>
+          <p>Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML (en-US) (incluyendo varios languages basados en XML como SVG, MathML o XHTML). CSS describe como debe ser renderizado el elemento estructurado en la pantalla, en papel, en el habla o en otros medios.</p>
+          <p>CSS es uno de los lenguajes base de la Open Web y posee una especificación estandarizada por parte del W3C. Anteriormente , el desarrollo de varias partes de las especificaciones de CSS era realizado de manera sincrónica, lo que permiía el versionado de las recomendaciones. Probablemente habrás escuchado acerca de CSS1, CSS2.1, CSS3. Sin embargo, CSS4 nunca se ha lanzado como una versión oficial.</p>
+          <div>
+            <p>Quieres Conocer Las Sintaxis De Css?</p>
+            <a href="https://developer.mozilla.org/es/docs/Web/CSS/Reference" target="_blank">Haz Clic Aqui</a>
+          </div>
+          <p>Desde CSS3, el alcance de las especificaciones se incrementó de forma significativa y el progreso de los diferentes modulos de CSS comenzó a mostrar varias diferencias, lo que hizo más efectivo desarrollar y publicar recomendaciones separadas por módulos. En vez de versionar las especificaciones de CSS, la W3C actualmente realiza una captura de las ultimas espcificaciones estables de CSS.</p>
+        </article>
+        <article>
+          <h3>Como Comenzar</h3>
+          <div class="LimitVideo"><div class="ContainerVideo"><iframe src="https://www.youtube.com/embed/OWKXEJN67FE" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div></div>
+        </article>
+        <article class="ejemplo">
+          <h3>Ejemplo</h3>
+          <div>
+            <p class="CodeHtml CodeGeneral">
+              <span>&lt;!DOCTYPE HTML&gt;</span>
+              <span>&lt;html&gt;</span>
+              <span class="space1">&lt;head&gt;</span>
+              <span class="space2">&lt;meta charset="utf-8" /&gt;</span>
+              <span class="space2">&lt;link rel="stylesheet" type="text/css" href="estilo.css" /&gt;</span>
+              <span class="space2">&lt;title&gt; Estilos &lt;/title&gt;</span>
+              <span class="space1">&lt;/head&gt;</span>
+              <span class="space1">&lt;body&gt;</span>
+              <span class="space2">Texto fuera de párrafo.</span>
+              <span class="space2">&lt;br&gt;</span>
+              <span class="space2">Segunda línea fuera de párrafo.</span>
+              <span class="space2">&lt;p&gt;</span>
+              <span class="space3">texto de párrafo.</span>
+              <span class="space3">&lt;br&gt;</span>
+              <span class="space3">segunda línea de párrafo.</span>
+              <span class="space2">&lt;/p&gt;</span>
+              <span class="space1">&lt;/body&gt;</span>
+              <span>&lt;/html&gt;</span>
+            </p>
+          </div>
+          <div>
+            <p class="CodeCss CodeGeneral">
+              <span>body {</span>
+              <span class="space1">color:green;</span>
+              <span>}</span>
+              <span>p {</span>
+              <span class="space1">color:red;</span>
+              <span class="space1">font-size:20px;</span>
+              <span class="space1">font-family:Courier;</span>
+              <span class="space1">font-weight:bold;</span>
+              <span class="space1">font-style:italic;</span>
+              <span class="space1">line-height:30px;</span>
+              <span class="space1">letter-spacing:5px;</span>
+              <span class="space1">text-decoration:underline;</span>
+              <span class="space1">text-transform:capitalize;</span>
+              <span class="space1">text-align:left;</span>
+              <span class="space1">text-indent:30px;</span>
+              <span>}</span>
+            </p>
+          </div>
+          <div>
+            <h4>Resultado Del Codigo Css</h4>
+            <img src="./img/ResultadoCss.jpg" alt="Resultado De Estilo Css">
+          </div>
+        </article>
+        <article class="end">
+          <h3>Documentacion Oficial</h3>
+          <div>
+            <p>Para Conocer Todo Lo Que Incorpora Css Visita El Siguiente Enlace</p>
+            <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">Documentacion Oficial</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="main-section" id="javascript">
+      <header>
+        <h2>JAVASCRIPT</h2>
+      </header>
+      <div>
+        <article class="introduccion">
+          <h3>Introduccion</h3>
+          <p>JavaScript (JS) es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo (just-in-time) con funciones de primera clase. Si bien es más conocido como un lenguaje de scripting (secuencias de comandos) para páginas web, y es usado en muchos entornos fuera del navegador, tal como Node.js, Apache CouchDB y Adobe Acrobat JavaScript es un lenguaje de programación basada en prototipos, multiparadigma, de un solo hilo, dinámico, con soporte para programación orientada a objetos, imperativa y declarativa (por ejemplo programación funcional). Lee más en acerca de JavaScript.</p>
+          <div>
+            <p>Quieres Conocer Las Funciones De JavaScript?</p>
+            <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference" target="_blank">Haz Clic Aqui</a>
+          </div>
+          <p>Esta sección está dedicada al lenguaje JavaScript en sí, y no a las partes que son específicas de las páginas web u otros entornos host. Para información acerca de APIs específicas para páginas Web, consulta APIs Web y DOM.</p>
+          <p>El estándar para JavaScript es ECMAScript (ECMA-262) y la especificación de la API para la Internacionalización de ECMAScript (ECMA-402). La documentación en MDN está basada enteramente en las últimas versiones preliminares de ECMA-262 y ECMA-402. Y en algunos casos donde algunas propuestas para nuevas funciones para ECMAScript ya hayan sido implementadas en los navegadores, la documentación y algunos artículos de MDN pueden hacer uso de algunas de estas funciones.</p>
+        </article>
+        <article>
+          <h3>Como Comenzar</h3>
+          <div class="LimitVideo"><div class="ContainerVideo"><iframe src="https://www.youtube.com/embed/ivdTnPl1ND0" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div></div>
+        </article>
+        <article class="ejemplo">
+          <h3>Ejemplo</h3>
+          <div>
+            <h4>Codigo Para Hallar El Factorial De Un Numero</h4>
+            <p class="CodeJs CodeGeneral">
+              <span><span class="color">function</span> factorial(n) {</span>
+              <span class="space1"><span class="color">if</span> (n === 0) {</span>
+              <span class="space2"><span class="color">return</span> 1;</span>
+              <span class="space1">}</span>
+              <span class="space1"><span class="color">return</span> n * factorial(n - 1);</span>
+              <span>}</span>
+              <span><span class="color">console</span>.<span class="color2">log</span>("Hello world!");</span>
+            </p>
+          </div>
+        </article>
+        <article class="end">
+          <h3>Documentacion Oficial</h3>
+          <div>
+            <p>Para Conocer Todo Lo Que Incorpora JavaScript Visita El Siguiente Enlace</p>
+            <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">Documentacion Oficial</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="main-section" id="express">
+      <header>
+        <h2>EXPRESS</h2>
+      </header>
+      <div>
+        <article class="introduccion">
+          <h3>Introduccion</h3>
+          <p>Express.js, o simplemente Express, es un marco de aplicación web back-end para Node.js, lanzado como software gratuito y de código abierto bajo la licencia MIT. Está diseñado para crear aplicaciones web y API. Ha sido llamado el marco de servidor estándar de facto para Node.js.</p>
+          <div>
+            <p>Quieres Conocer Las Funciones De Express.js?</p>
+            <a href="https://expressjs.com/es/4x/api.html" target="_blank">Haz Clic Aqui</a>
+          </div>
+          <p>El autor original, TJ Holowaychuk, lo describió como un servidor inspirado en Sinatra, lo que significa que es relativamente mínimo con muchas funciones disponibles como complementos. Express es el componente de back-end de las pilas de desarrollo populares como la pila MEAN, MERN o MEVN, junto con el software de base de datos MongoDB y una biblioteca o marco de front-end de JavaScript.</p>
+          <p>Express.js fue fundado por TJ Hollowaychuk. El primer lanzamiento, según el repositorio GitHub de Express.js, fue el 22 de mayo de 2010. Versión 0.12 En junio de 2014, StrongLoop adquirió los derechos para gestionar el proyecto.IBM adquirió StrongLoop en septiembre de 2015; en enero de 2016, IBM anunció que colocaría Express.js bajo la administración de la incubadora de la Fundación Node.js.</p>
+        </article>
+        <article>
+          <h3>Como Comenzar</h3>
+          <div class="LimitVideo"><div class="ContainerVideo"><iframe src="https://www.youtube.com/embed/794Q71KVw1k" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div></div>
+        </article>
+        <article class="ejemplo">
+          <h3>Ejemplo</h3>
+          <div>
+            <h4>Inicializacion De Un Servidor Basico</h4>
+            <p class="CodeExpress CodeGeneral">
+              <span><span class="color">const</span> express = require('express');</span>
+              <span><span class="color">const</span> app = express();</span>
+              <span>app.get('/', (req,res)=>{</span>
+              <span class="space2">res.send('Hi, your request has been received');</span>
+              <span>})</span>
+              <span>app.listen(2000, ()=>{</span>
+              <span class="space1">console.log('listening at http://localhost:2000');</span>
+              <span>})</span>
+            </p>
+          </div>
+        </article>
+        <article class="end">
+          <h3>Documentacion Oficial</h3>
+          <div>
+            <p>Para Conocer Todo Lo Que Incorpora Express Visita El Siguiente Enlace</p>
+            <a href="https://expressjs.com/" target="_blank">Documentacion Oficial</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="main-section" id="react">
+      <header>
+        <h2>REACT</h2>
+      </header>
+      <div>
+        <article class="introduccion">
+          <h3>Introduccion</h3>
+          <p>React te ayuda a crear interfaces de usuario interactivas de forma sencilla. Diseña vistas simples para cada estado en tu aplicación, y React se encargará de actualizar y renderizar de manera eficiente los componentes correctos cuando los datos cambien.</p>
+          <div>
+            <p>Quieres Conocer Las Funciones De React?</p>
+            <a href="https://es.reactjs.org/docs/getting-started.html" target="_blank">Haz Clic Aqui</a>
+          </div>
+          <p>Crea componentes encapsulados que manejen su propio estado, y conviértelos en interfaces de usuario complejas.</p>
+          <p>En React no dejamos fuera al resto de tus herramientas tecnológicas, así que podrás desarrollar nuevas características sin necesidad de volver a escribir el código existente. React puede también renderizar desde el servidor usando Node, así como potencializar aplicaciones móviles usando React Native.</p>
+        </article>
+        <article>
+          <h3>Como Comenzar</h3>
+          <div class="LimitVideo"><div class="ContainerVideo"><iframe src="https://www.youtube.com/embed/T_j60n1zgu0" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div></div>
+        </article>
+        <article class="ejemplo">
+          <h3>Ejemplo</h3>
+          <div>
+            <h4>Contenido De Un Archivo App.js</h4>
+            <p class="CodeReact CodeGeneral">
+              <span><span class="color">import</span> <span class="color2">React</span> <span class="color">from</span> 'react';</span>
+              <span><span class="color">import</span> './App.css';</span>
+              <span><span class="color">const</span> <span class="color2">App</span> = () => {</span>
+              <span class="space1"><span class="color">return</span> (</span>
+              <span class="space2">&lt;<span class="color3">div</span> <span class="color2">className</span>="App"&gt;</span>
+              <span class="space3">&lt;<span class="color3">div</span> <span class="color2">className</span>="App-content"&gt;</span>
+              <span class="space4">&lt;<span class="color3">p</span>&gt;</span>
+              <span class="space5">Aquí haremos nuestro TO-DO list</span>
+              <span class="space4">&lt;/<span class="color3">p</span>&gt;</span>
+              <span class="space3">&lt;/<span class="color3">div</span>&gt;</span>
+              <span class="space2">&lt;/<span class="color3">div</span>&gt;</span>
+              <span class="space1">);</span>
+              <span>}</span>
+              <span><span class="color">export</span> <span class="color">default</span> <span class="color2">App</span>;</span>
+            </p>
+          </div>
+        </article>
+        <article class="end">
+          <h3>Documentacion Oficial</h3>
+          <div>
+            <p>Para Conocer Todo Lo Que Incorpora React Visita El Siguiente Enlace</p>
+            <a href="https://es.reactjs.org/" target="_blank">Documentacion Oficial</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
